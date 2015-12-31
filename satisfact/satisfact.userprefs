@@ -1,16 +1,9 @@
 ﻿<Properties>
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Timer.cs">
     <Files>
       <File FileName="Assets/MoveSquare.cs" Line="31" Column="5" />
-      <File FileName="Assets/Timer.cs" Line="40" Column="39" />
-=======
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/active.cs">
-    <Files>
-      <File FileName="Assets/active.cs" Line="14" Column="1" />
->>>>>>> refs/remotes/origin/master
+      <File FileName="Assets/Timer.cs" Line="36" Column="54" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
