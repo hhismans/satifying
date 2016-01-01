@@ -47,7 +47,7 @@ public class Timer : MonoBehaviour {
 				plane.GetComponent<RectTransform>().transform.position = new Vector2(x_pos, plane.transform.position.y);
 
 				// push button ?
-				RaycastHit2D hit = Physics2D.Raycast(Input.mousePosition, Vector2.zero);
+				RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
 				if(hit.collider != null)
 				{
 					goal = true;
@@ -60,7 +60,8 @@ public class Timer : MonoBehaviour {
 				print ("Game Over");
 				// Load next level
 			}
-		} else {
+		} else {;
+			venti_left.GetComponent<ParticleSystem>().Stop();
 			print ("Success");
 		}
 	}
