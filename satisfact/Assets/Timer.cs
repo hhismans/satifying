@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class Timer : MonoBehaviour {
 
-	private float		timer = 5f;
+	private float		timer = 3f;
 	private float		elapsed = 0f;
 	public GameObject	panel_top;
 	public GameObject	panel_bottom;
